@@ -137,11 +137,6 @@ a.underlineNone {
   user-select: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 580px) {
-  .btnSlideNav {
-    display: none;
-  }
-}
 
 .slideOpen {
   background: linear-gradient(to right, #0081ff 0%, #0045ff 100%);
@@ -169,6 +164,18 @@ a.underlineNone {
 }
 .slideOpen:hover {
   opacity: 1;
+}
+
+@media only screen and (max-width: 580px) {
+  /* .btnSlideNav {
+    display: none;
+  } */
+  .slideOpen{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    left: auto;
+  }
 }
 
 .slideClose {

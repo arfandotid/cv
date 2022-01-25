@@ -1485,6 +1485,13 @@ button:focus {
   margin-top: 1rem;
   margin-bottom: 0;
 }
+.gallery-grid__title a{
+  text-decoration: none;
+  color: #3B4B5E;
+}
+.gallery-grid__title a:hover{
+  color: #0D86FF;
+}
 @media only screen and (max-width: 580px) {
   .gallery-grid__title {
     font-size: 0.875rem;

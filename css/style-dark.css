@@ -421,4 +421,12 @@ select option,
   background: #1D1E24 !important;
 }
 
+.gallery-grid__title a{
+  color: #ffffff;
+}
+
+.gallery-grid__title a:hover{
+  color: #0D86FF;
+}
+
 /*# sourceMappingURL=style-dark.css.map */

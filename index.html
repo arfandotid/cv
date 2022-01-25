@@ -240,7 +240,11 @@
 											<img class="gallery-grid__image cover lazyload" :src="item.img" data-zoom :alt="item.title">
 										</div>
 										<figcaption class="gallery-grid__caption">
-											<h4 class="title title--h6 gallery-grid__title"><a target="_blank" :href="item.link">{{ item.title }}</a></h4>
+											<h4 class="title title--h6 gallery-grid__title">
+												<a target="_blank" :href="item.link">
+													{{ item.title }}
+												</a>
+											</h4>
 											<span class="gallery-grid__category">{{ item.caption }}</span>
 										</figcaption>
 									</figure>
