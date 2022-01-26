@@ -205,8 +205,10 @@
 								<!-- Skills -->
 								<div class="row">
 									<div class="col-12">
-										<h2 class="title title--h3">Keterampilan</h2>
-										<span v-for="item in resume.skills" class="mb-1 py-2 px-4 mr-1 badge bg-primary text-white">{{ item }}</span>
+										<h2 class="title title--h3">Teknologi yang digunakan</h2>
+										<div class="d-inline mx-2" v-for="item in resume.skills">
+											<svg class="mb-2" style="width:70px;height:70px" viewBox="0 0 24 24" v-html="item.svg" data-toggle="tooltip" data-placement="top" :title="item.name"></svg>
+										</div>
 									</div>
 								</div>
 							</div>
