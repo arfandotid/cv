@@ -192,6 +192,15 @@ var app = new Vue({
             figure: [
                 {
                     link: '#',
+                    title: 'Aplikasi Portal Manajemen SIC',
+                    img: 'images/portfolio/portalsic.png',
+                    caption: 'PT Sarbi International Certification',
+                    filter: [
+                        'category-laravel',
+                    ],
+                },
+                {
+                    link: '#',
                     title: 'Aplikasi Penerbitan Dokumen V-Legal Berbasis Web',
                     img: 'images/portfolio/vlegal.png',
                     caption: 'PT Sarbi International Certification',
