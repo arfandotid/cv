@@ -79,7 +79,7 @@ var app = new Vue({
                 {
                     title: 'PT Sarbi International Certification',
                     period: 'Mar 2021 &mdash; Sekarang',
-                    desc: 'Dimulai dari magang, hingga menjadi support system dan Operator Penerbit V-Legal pada Lembaga Sertifikasi PT Sarbi International Certification, Bogor.'
+                    desc: 'Membuat ulang website company profile perusahaan menggunakan wordpress, dan membuat ulang aplikasi penerbitan dokumen v-legal dengan codeigniter 4 yang terhubung langsung dengan database Kementrian'
                 },
                 {
                     title: 'Yayasan Yatim Center Al-Ruhamaa',
