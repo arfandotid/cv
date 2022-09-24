@@ -15,7 +15,7 @@ document.querySelector('#contact-form').addEventListener("submit", function (eve
 
 const Portfolio = document.getElementById('portfolioGrid');
 Portfolio.innerHTML = '';
-axios.get('/portfolio.json').then((response) => {
+axios.get(window.location.href+'/portfolio.json').then((response) => {
     for(var key in response.data) {
         Portfolio.innerHTML += `
             <div class="col-md-6 col-lg-4 mb-5">
@@ -35,7 +35,7 @@ axios.get('/portfolio.json').then((response) => {
 let portfolioModal = new bootstrap.Modal(document.getElementById("portfolioModal"), {});
 
 function getPortfolio(name) {
-    axios.get('/portfolio.json').then((response) => {
+    axios.get(window.location.href+'/portfolio.json').then((response) => {
         let portfolio = response.data[name];
 
         // Ubah data dari modal
