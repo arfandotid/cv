@@ -7,6 +7,14 @@
         "tech": ["Larevel", "React"],
         "link": "https://buildwithangga.com/kelas/full-stack-laravel-react-js-build-streaming-website-like-netflix"
     },
+    "bwastore": {
+        "images": ["1.png", "2.png", "3.png", "4.png"],
+        "label": "E-Commerce Website",
+        "title": "Website E-Commerce Menggunakan Laravel 8",
+        "desc": "Mengikuti kelas online Full-Stack Web Developer: Toko Online dari Buildwithangga.com",
+        "tech": ["Larevel"],
+        "link": "https://buildwithangga.com/kelas/full-stack-web-developer-toko-online"
+    },
     "sarbisertifikasi": {
         "images": ["1.png", "2.png", "3.png", "4.png"],
         "label": "Company Profile",
