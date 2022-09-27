@@ -1,6 +1,6 @@
 {
     "bwamoonton": {
-        "images": ["1.png", "2.png", "3.png"],
+        "images": ["1.png", "2.png", "3.png", "4.png"],
         "label": "Streaming Website",
         "title": "Website Streaming Menggunakan Laravel 9 & React",
         "desc": "Mengikuti kelas online Full-Stack Laravel React JS: Build Streaming Website Like Netflix dari Buildwithangga.com",
